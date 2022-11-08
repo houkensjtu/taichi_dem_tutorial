@@ -1,7 +1,18 @@
-# Taichi DEM
-A minimal DEM simulation demo written in Taichi.
+# Taichi DEM Tutorial
+This repository contains a minimal DEM simulation demo written in Taichi, and a series of practices for
+beginners to get started with the DEM algorithm. 
 
 <img src="https://raw.githubusercontent.com/taichi-dev/public_files/master/taichi_dem/demo.gif" height="270px">
+
+There are four practices in the `tutorial` folder.
+```bash
+./tutorial/dem-step-1q.py  # Practice 1. Implement the Grain dataclass.
+./tutorial/dem-step-1q.py  # Practice 2. Implement the brute-force collision-detection.
+./tutorial/dem-step-1q.py  # Practice 3. Calculate the grain_count and prefix_sum for fast collision-detection.
+./tutorial/dem-step-1q.py  # Practice 4. Implement a fast collision-detection based on grid.
+```
+
+You can find the corresponding answers in the `answer` folder.
 
 > To implement your own version, click the "Use this template" button on this page and simply modify the `dem.py` script.
 
